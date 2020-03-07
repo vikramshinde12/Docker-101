@@ -12,7 +12,7 @@ def test():
     return "Checking Test"
 
 @app.route('/welcome')
-def test():
+def welcome():
     return "Welcome to Docker"
 
 
