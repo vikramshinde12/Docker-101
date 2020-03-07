@@ -13,7 +13,7 @@ def test():
 
 @app.route('/welcome')
 def welcome():
-    return "Welcome to Docker"
+    return "Welcome to the new Docker"
 
 
 if __name__ == '__main__':
