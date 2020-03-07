@@ -11,5 +11,10 @@ def hello():
 def test():
     return "Checking Test"
 
+@app.route('/welcome')
+def test():
+    return "Welcome to Docker"
+
+
 if __name__ == '__main__':
     app.run()
